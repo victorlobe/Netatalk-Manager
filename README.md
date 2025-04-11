@@ -23,8 +23,13 @@
 
 - 💡 Start, stop, and restart Netatalk via `brew services`
 - 🔄 Live status updates with animation and glow
+- 🔧 Auto-installs Netatalk if it's missing
+- 📦 Real-time install progress bar with step output
+- ⏳ Graceful post-install transition handling
+- 🔍 Combined status check using `brew` and `pgrep`
 - 🟢/🔴 Optional Dock badge indicator
-- 🧽 Native macOS layout and non-resizable UI
+- 🧭 Menu bar shortcut to open Netatalk config path
+- 🧊 Native macOS layout and non-resizable UI
 - 🧃 No terminal needed
 
 ---
@@ -56,6 +61,7 @@
 ## ⚙️ Preferences
 
 - Toggle Dock badge visibility from the **View** menu
+- Open Netatalk config folder from the **File** menu
 
 ---
 
