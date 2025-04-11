@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="NetatalkManagerIcon.png" alt="Netatalk Manager Icon" width="120" />
+  <img src="NetatalkUtilityIcon.png" alt="Netatalk Utility Icon" width="120" />
 </p>
 
-<h1 align="center">Netatalk Manager</h1>
+<h1 align="center">Netatalk Utility</h1>
 
 <p align="center">
   A beautiful, native macOS app to manage your Netatalk service with one click.
 </p>
 
 <p align="center">
-  <a href="https://github.com/victorlobe/Netatalk-Manager/releases/latest">
+  <a href="https://github.com/victorlobe/Netatalk-Utility/releases/latest">
     <img alt="Download" src="https://img.shields.io/badge/download-latest-blue?logo=apple" />
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
@@ -31,7 +31,7 @@
 
 ## 📦 Download
 
-👉 [**Download the latest version (.dmg)**](https://github.com/yourusername/netatalk-manager/releases/latest)
+👉 [**Download the latest version (.dmg)**](https://github.com/yourusername/netatalk-Utility/releases/latest)
 
 > **Requirements:**
 > - macOS 11 or later
@@ -61,7 +61,7 @@
 
 ## 🔧 How It Works
 
-Netatalk Manager uses `brew services` under the hood to control your Netatalk installation.  
+Netatalk Utility uses `brew services` under the hood to control your Netatalk installation.  
 It checks status using both `brew services list` and `pgrep`, with graceful fallback.
 
 The UI is built entirely in **Swift + Cocoa**, optimized for clarity and speed.
