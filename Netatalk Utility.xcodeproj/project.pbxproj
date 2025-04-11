@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		57F9B00A2DA47B7C00696519 /* Netatalk Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netatalk Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F9B00A2DA47B7C00696519 /* Netatalk Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netatalk Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		57F9B00C2DA47B7C00696519 /* Netatalk Manager */ = {
+		57F9B00C2DA47B7C00696519 /* Netatalk Utility */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Netatalk Manager";
+			path = "Netatalk Utility";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		57F9B0012DA47B7C00696519 = {
 			isa = PBXGroup;
 			children = (
-				57F9B00C2DA47B7C00696519 /* Netatalk Manager */,
+				57F9B00C2DA47B7C00696519 /* Netatalk Utility */,
 				57F9B00B2DA47B7C00696519 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		57F9B00B2DA47B7C00696519 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57F9B00A2DA47B7C00696519 /* Netatalk Manager.app */,
+				57F9B00A2DA47B7C00696519 /* Netatalk Utility.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57F9B0092DA47B7C00696519 /* Netatalk Manager */ = {
+		57F9B0092DA47B7C00696519 /* Netatalk Utility */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57F9B0192DA47B7D00696519 /* Build configuration list for PBXNativeTarget "Netatalk Manager" */;
+			buildConfigurationList = 57F9B0192DA47B7D00696519 /* Build configuration list for PBXNativeTarget "Netatalk Utility" */;
 			buildPhases = (
 				57F9B0062DA47B7C00696519 /* Sources */,
 				57F9B0072DA47B7C00696519 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				57F9B00C2DA47B7C00696519 /* Netatalk Manager */,
+				57F9B00C2DA47B7C00696519 /* Netatalk Utility */,
 			);
-			name = "Netatalk Manager";
+			name = "Netatalk Utility";
 			packageProductDependencies = (
 			);
 			productName = "Netatalk Manager";
-			productReference = 57F9B00A2DA47B7C00696519 /* Netatalk Manager.app */;
+			productReference = 57F9B00A2DA47B7C00696519 /* Netatalk Utility.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57F9B0052DA47B7C00696519 /* Build configuration list for PBXProject "Netatalk Manager" */;
+			buildConfigurationList = 57F9B0052DA47B7C00696519 /* Build configuration list for PBXProject "Netatalk Utility" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57F9B0092DA47B7C00696519 /* Netatalk Manager */,
+				57F9B0092DA47B7C00696519 /* Netatalk Utility */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +250,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Netatalk Manager/Netatalk_Manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Netatalk Utility/Netatalk_Utility.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -265,8 +265,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.Netatalk-Manager";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.Netatalk-Utility";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -279,7 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Netatalk Manager/Netatalk_Manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Netatalk Utility/Netatalk_Utility.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -294,8 +294,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.Netatalk-Manager";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorlobe.Netatalk-Utility";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57F9B0052DA47B7C00696519 /* Build configuration list for PBXProject "Netatalk Manager" */ = {
+		57F9B0052DA47B7C00696519 /* Build configuration list for PBXProject "Netatalk Utility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57F9B0172DA47B7D00696519 /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57F9B0192DA47B7D00696519 /* Build configuration list for PBXNativeTarget "Netatalk Manager" */ = {
+		57F9B0192DA47B7D00696519 /* Build configuration list for PBXNativeTarget "Netatalk Utility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57F9B01A2DA47B7D00696519 /* Debug */,
